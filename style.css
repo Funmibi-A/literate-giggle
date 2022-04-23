@@ -1,0 +1,274 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: tahoma;
+    box-sizing: border-box;
+}
+
+#header_2 {
+    color: green;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 3px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+}
+
+#paragraph {
+    letter-spacing: 11px;
+    color: green;
+    font-size: 9px;
+    text-align: center;
+    cursor: pointer;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+header {
+    height: 100px;
+    width: 1100px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+ul li {
+    padding: 10px;
+}
+
+.arrow {
+    margin-bottom: 20px;
+    margin-right: 10px;
+    position: relative;
+    bottom: 5px;
+}
+
+ul li a {
+    padding: 0 8px;
+    text-decoration: none;
+    color: green;
+    display: block;
+}
+
+.sub-menu {
+    display: none;  
+}
+
+.sub-menu li {
+    border-bottom: 2px solid #fff;
+}
+
+ul li:hover .sub-menu {
+    display: block;
+    position: absolute;
+    background-color: #DFF6FF;
+    /* background-color: green; */
+    margin-top: 10px;
+    color: #000;
+    border-radius: 2px;  
+    z-index: 10;
+}
+
+ul li:hover .sub-menu li {
+    display: block;
+    border-bottom: 1px solid #fff;
+}
+
+.get-in-touch-btn {
+    border: 1px solid green;
+    color: green;
+    border-radius: 2px;
+    text-transform: uppercase;
+    padding: 13px 20px;
+    background-color: #fff;
+    letter-spacing: 3px;
+    cursor: pointer;
+    transition: background-color 0.25s,
+    color 0.25s;
+}
+
+.get-in-touch-btn:hover {
+    background-color: green;
+    color: #fff;
+}
+
+.content {
+    color: #fff;
+}
+
+.top-text {
+    font-size: 60px;
+    letter-spacing: 10px;
+    margin-bottom: 7px;
+    text-transform: uppercase;
+}
+
+.sub-text {
+    margin-bottom: 20px;
+}
+
+.btn-sign-in {
+    padding: 15px 25px;
+    margin-top: 25px;
+    background-color: transparent; 
+    color: #fff;
+    border: 1px solid #fff;
+    cursor: pointer;
+    text-transform: uppercase;
+} 
+
+.btn-sign-in a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn-sign-in {
+    text-decoration: none;
+    color: #fff; 
+}
+
+.landing-page {
+    background-image: url('assets/building.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+}
+
+.wrapper {
+    height: 100vh;
+    padding: 10px;
+    background-color: #0e0e0e;
+  }
+
+  .box {
+    height: 670px;
+    width: 780px;
+    background-color: #6A62D2;
+    border-radius: 2px
+  }
+
+  .box-2 {
+    height: 450px;
+    width: 450px;
+    background-color: white;
+    border-radius: 2px;
+    margin: 80px auto;
+    border-radius: 5px;
+  }
+
+  
+  .wrapper-3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    cursor: zoom-in
+  }
+
+
+  .sign-in-text {
+      text-align: center;
+      font-size: 23px;
+      margin-top: 30px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+  }
+
+
+  input[type=email] {
+      height: 65px;
+      width: 85%;
+      display: grid;
+      margin: 30px auto;
+      background-color: #E5E8ED;
+      border: none;
+      font-size: 20px;
+      padding: 8px 25px;
+      border-radius: 3px; 
+    }
+  
+    input[type=password] {
+    height: 65px;
+    width: 85%;
+    display: grid;
+    margin: 30px auto;
+    margin-bottom: 15px;
+    background-color: #E5E8ED;
+    border: none;
+    font-size: 25px;
+    padding: 8px 25px;
+    border-radius: 3px;
+    letter-spacing: 2px
+  }
+
+  input[type=checkbox] {
+    margin-left: 34px;
+    width: 20px;
+    height: 17px;
+    background-color: #E5E8ED;
+    font-size: 25px;
+    padding: 2px 0;
+    margin-right: 10px;
+    border-radius: 2px;
+  }
+
+  .checked {
+      margin-top: 23px;
+  }
+
+  .checkbox-text {
+      color: grey;
+      font-size: 14px;
+      margin-bottom: 10px;
+      position: relative;
+      bottom: 3px;
+  }
+
+  #sign_in {
+      width: 85%;
+      margin: 25px auto;
+      display: grid;
+      text-align: center;
+      padding: 17px;
+      border-radius: 4px;
+      background-color: #746BDE;
+      color: #fff;
+      font-size: 20px;
+      border: none;
+      cursor: pointer;
+  }
+
+  #home_page {
+      text-align: center;
+      font-size: 14px;
+      color: grey;
+      margin-top: 30px;
+  }
+
+  #home_page a {
+    text-decoration: none;
+    color: grey
+  }
+
+
+
+  
